@@ -13,6 +13,12 @@ public class HashMapDemo {
 	m.put("Bala", 800);
 	m.put("Venki", 200);
 	m.put("Nag", 500);
+	
+	m.put("Venki", 200);
+	m.put("Nag", 500);m.put("Venki", 200);
+	m.put("Nag", 500);m.put("Venki", 200);
+	m.put("Nag", 500);m.put("Venki", 200);
+	m.put("Nag", 500);
 	System.out.println(m);
 	
 	

@@ -8,9 +8,9 @@ public class TestPC {
 			//p.m1();
 			//p.m2();
 			
-			//Parent p1=new Child();
-			//p1.m1();
-		//	p1.m2();
+			Parent p1=new Child();
+		     p1.m1();
+		  // p1.m2();
 			
 			Child c=new Child();
 			c.m1();

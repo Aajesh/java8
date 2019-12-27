@@ -12,5 +12,6 @@ public class LambdaExpressionExample7{
         list.add("irfan");  
         list.add("jai");  
         list.forEach(str->System.out.println(str));
+        
     }   
 }

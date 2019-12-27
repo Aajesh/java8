@@ -4,6 +4,7 @@ import com.java.exceptioncustomer.Customer;
 import com.java.exceptions.NameNotFoundException;
 
 public class CustomerServiceUnchecked {
+	
 	public Customer findByName(String name) throws NameNotFoundException {
     	if ("".equals(name)) {
             throw new NameNotFoundException("Name is empty!");
@@ -14,9 +15,7 @@ public class CustomerServiceUnchecked {
     }
 
     public static void main(String[] args) {
-
-        CustomerServiceUnchecked obj = new CustomerServiceUnchecked();
-
+    	CustomerServiceUnchecked obj = new CustomerServiceUnchecked();
         try {
 
             Customer cus = obj.findByName("");
@@ -25,5 +24,5 @@ public class CustomerServiceUnchecked {
             e.printStackTrace();
         }
 
-    }
-}
+    }//main void 
+}//end of the CustomerServiceUncheked
